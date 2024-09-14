@@ -14,37 +14,12 @@ namespace myImages {
 . . f 5 5 5 f . 
 . . . f f f . . 
 `;
-            case "image2":
-            case "smallPlacer":return img`
-2 2 . . . . 2 2 
-2 1 1 1 1 1 1 2 
-2 4 4 4 4 4 4 2 
-2 2 . . . . 2 2 
-`;
-            case "image4":
-            case "largePlacer":return img`
-2 2 . . . . . . . . 2 2 
-2 2 2 . . . . . . 2 2 2 
-2 2 1 1 1 1 1 1 1 1 2 2 
-2 2 4 4 4 4 4 4 4 4 2 2 
-2 2 2 . . . . . . 2 2 2 
-2 2 . . . . . . . . 2 2 
-`;
             case "image3":
             case "smallPanel":return img`
 8 1 8 1 8 1 . . 
 1 8 1 8 1 8 1 . 
 . 1 8 1 8 1 8 1 
 . . 1 8 1 8 1 8 
-`;
-            case "image5":
-            case "largePanel":return img`
-1 1 1 1 1 1 1 1 . . . . 
-1 8 8 1 1 9 8 8 1 . . . 
-1 9 8 8 1 1 9 8 8 1 . . 
-. 1 9 8 8 1 1 9 8 8 1 . 
-. . 1 9 8 8 1 1 9 8 8 1 
-. . . 1 1 1 1 1 1 1 1 1 
 `;
             case "image6":
             case "field":return img`
@@ -363,6 +338,31 @@ e e f 1 1 1 1 1 1 f e e
 . . . f f f f f f . . . 
 . . . f f . . f f . . . 
 `;
+            case "image2":
+            case "smallShadow":return img`
+2 2 . . . . 2 2 
+2 1 1 1 1 1 1 2 
+2 4 4 4 4 4 4 2 
+2 2 . . . . 2 2 
+`;
+            case "image4":
+            case "largeShadow":return img`
+a a . . . . . . . . a a 
+a a a . . . . . . a a a 
+a a 1 1 1 1 1 1 1 1 a a 
+a a 4 4 4 4 4 4 4 4 a a 
+a a a . . . . . . a a a 
+a a . . . . . . . . a a 
+`;
+            case "image5":
+            case "largePanel":return img`
+1 1 1 1 1 1 1 1 . . . . 
+1 8 8 1 1 5 8 8 1 . . . 
+1 5 8 8 1 1 5 8 8 1 . . 
+. 1 5 8 8 1 1 5 8 8 1 . 
+. . 1 5 8 8 1 1 5 8 8 1 
+. . . 1 1 1 1 1 1 1 1 1 
+`;
         }
         return null;
     })
@@ -380,12 +380,6 @@ e e f 1 1 1 1 1 1 f e e
         }
         return null;
     })
-
-}
-// Auto-generated code. Do not edit.
-
-// Auto-generated code. Do not edit.
-namespace myTiles {
 
 }
 // Auto-generated code. Do not edit.
