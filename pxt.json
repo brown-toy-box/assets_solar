@@ -2,12 +2,7 @@
     "name": "solar_assets",
     "version": "0.0.0",
     "files": [
-        "main.blocks",
-        "main.ts",
-        "README.md"
-    ],
-    "testFiles": [
-        "test.ts"
+        "main.ts"
     ],
     "supportedTargets": [
         "arcade"
@@ -15,6 +10,5 @@
     "dependencies": {
         "device": "*"
     },
-    "testDependencies": {},
-    "preferredEditor": "tsproj"
+    "testDependencies": {}
 }
