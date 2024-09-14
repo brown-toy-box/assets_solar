@@ -1,17 +1,22 @@
 {
     "name": "solar_assets",
     "version": "0.0.0",
+    "dependencies": {
+        "device": "*"
+    },
     "files": [
         "images.g.jres",
         "images.g.ts",
         "main.ts"
     ],
+    "testDependencies": {},
+    "targetVersions": {
+        "target": "1.12.56",
+        "targetId": "arcade"
+    },
     "supportedTargets": [
         "arcade"
     ],
-    "dependencies": {
-        "device": "*"
-    },
-    "testDependencies": {},
+    "preferredEditor": "tsprj",
     "assetPack": true
 }
